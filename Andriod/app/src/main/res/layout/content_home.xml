@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mustafa.sayed.fitness.Bodice"
+    android:background="@drawable/ss">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="right"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="push up"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/v8"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="
+هذا التمرين يعتبر من التمارين الاساسية للصدر فمن ميزاته انه يمكن ان تقوم
+به في اي مكان حتى في المنزل كما انه يقوم بتقوية عضلة الصدر كاملة بشكل
+عام اذا لم يكن لديك وقت لعمل كافة التمارين فيجب عليك على الاقل اداء هذا التمرين
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بالجلوس على الارض بنفس الوضعية التي بالصورة في الاعلى ثم قم برفع وخفض الصدر
+باستخدام يديك
+لا تتعجل اثناء قيامك بالتمرين وحاول ان تبطيء"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : حاول ان تقوم بعمل تكرارات لا تزيد عن 15 تكرار واذا كان التمرين
+سهل قم بوقع اوزان فوق ظهرك وانت تقوم بالتمرين
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف:  حاول ان تقوم بعمل 3-5 مجموعات وكل مجموعة اكثر من 25 تكرار
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="pull up"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/q8"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين مهم جدا لتقوية عضلات الlats وكما انه يساعد في زيادة عرض اكتافك
+ويمكنك ان تقوم بعمله في المنزل عن طريق شراءك للpull up bar
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بامساك البار بمسكة واسعة وقم برفع جسمك مستخدما يديك لا تتعجل
+وانت تقوم بعمل التمرين وقم بعمله ببطء
+ "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="لتضخيم : قم بعمل 6-10 تكرارات بحيث تكون اخر 3 تكرارات صعبه اما لو كانت سهلة فقم بزيادة الوزن
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف:  قم بعمل 15-20 تكرار و4 جولات"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="squats  "
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/x1"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="
+تمرين ممتاز جدا فهو يقوي عضلات البطن ككل
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="
+استلق على الارض وقم بتحريك يديك ورجليك كما بالصورة
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بعمل هذا التمرين حتى تشعر بالتعب في عضلات البطن
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="diamond push up "
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/v3"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="
+تمرين اخر للصدر يمكنك ان تقوم به في المنزل وهو مفيد جدا لتقوية عضلات الصدر الداخلية تحديدا
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="
+قم بالجلوس على الارض بنفس الوضعية التي بالصورة مع تقريب يديك كثيرا ثم
+قم برفع وخفض الصدر باستخدام يديك
+لا تتعجل اثناء قيامك بالتمرين "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : حاول ان تقوم بعمل تكرارات لا تزيد عن 15 تكرار واذا كان التمرين
+سهل قم بوضع اوزان فوق ظهرك وانت تقوم بالتمرين "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="
+للتنشيف : حاول ان تقوم بعمل 3-5 مجموعات  وفي كل مجموعة اكثر من 25 تكرار"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="chin ups"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/q8"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين ممتاز لعضلات  الظهر و البطن ويمكنك اداءه في المنزل
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بامساك البار بوضعة ضيقة مع جعل الكفين باتجاهك قم برفع وخفض نفسك
+
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : حاول ان تقوم بعمل تكرارات لا تزيد عن 15 تكرار واذا كان التمرين
+سهل قم بوضع اوزان فوق ظهرك وانت تقوم بالتمرين
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف : حاول ان تقوم بعمل 3-5 مجموعات  وفي كل مجموعة اكثر من 25 تكرار
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text=" crunches "
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/z1"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين ممتاز لعضلات البطن وخاصة العلوية منها ويمكنك اداءه في المنزل
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="استلق على الارض وقم برفع جسمك وخفضها كما بالصورة
+
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بعمل 3-4 جولات  في كل جولة تمرن حتى تشعر بالتعب
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="leg raises"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/z4"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين ممتاز لعضلات البطن وخاصة السفليه ويمكنك اداءه في المنزل
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="استلق على الارض وقم برفع ارجلك وخفضها كما بالصورة
+عدد التكرارات
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="
+قم بعمل 3-4 جولات  في كل جولة تمرن حتى تشعر بالتعب"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text=" launges  "
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/x8"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين ممتاز لعضلات الارجل كما انه مفيد في حرق المزيد من السعرات الحرارية
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بالوقوف ثم قم بتقديم قدمك اليمنى وثنيها 90 درجة ثم قم بالوقوف مرة
+اخرى وعمل نفس الشيء بالرجل الاخرى كما بالصورة
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="0 تكرارات بحيث تكون اخر 3 تكرارات صعبه اما لو كانت سهلة
+قم بزيادة الوزن
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف: حاول ان تقوم بعمل 15-20 تكرار و4 جولات
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="تمرين الضغط الواسع"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/v2"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="وضعية اخرى من تمارين الضغط ولكن هذا التمرين مخصص
+لعضلات الصدر الخارجية القريبة من الكتف
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بالجلوس على الارض بنفس الوصعية بالصورة في الاعلى ثم قم برفع
+وخفض الصدر باستخدام يديك
+لا تتعجل اثناء قيامك بالمرين وحاول ان تبطيء"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : حاول ان تقوم بعمل تكرارات لا تزيد عن 15 تكرار واذا كان التمرين
+سهل قم بوضع اوزان فوق ظهرك وانت تقوم بالتمرين "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف: حاول ان تقوم بعمل 3-5 مجموعات وفي كل مجموعة اكتر من 25 تكرار"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="ضغط الترابيس"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/v8"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+          android:text="وضعية من تمارين ال push up ولكنها مخصص لعضلات الترابيس
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+           android:text="قم بعمل نفس وضعية ال push up ولكن اجعل يديك بنفس عرض كتفيك
+وعندما ترفع نفسك لا تجعل اكواعك تخرج للخارج بل اجعلها تبقى مستقيمة
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : حاول ان تقوم بعمل تكرارات لا تزيد عن 15 تكرار واذا كان التمرين
+سهل قم بوضع اوزان فوق ظهرك وانت تقوم بالتمرن "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنسيف : حاول ان تقوم بعمل 3-5 مجموعات وفي كل مجموعه اكثر من 25 تكرار"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

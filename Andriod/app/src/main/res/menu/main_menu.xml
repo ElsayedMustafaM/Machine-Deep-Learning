@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item android:id="@+id/mainmenuprotins"
+        android:title ="البروتينات"
+        ></item>
+    <item android:id="@+id/mainmenufood"
+        android:title ="تغذية مهمة"
+        ></item>
+    <item android:id="@+id/mainmenufavorite"
+
+        app:showAsAction="always"
+        android:title="المفضلات"
+        ></item>
+<item android:id="@+id/mainmenu"
+    android:icon="@drawable/mainmenu1"
+    app:showAsAction="always"
+    android:title="اضافة النتائج"
+    ></item>
+</menu>

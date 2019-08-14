@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mustafa.sayed.fitness.Bodice"
+    android:background="@drawable/ss">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="right"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="ترايسيبس خلفي"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/c1"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ذا كنت تريد تضخيم يديك يجب عليك الاهتمام بكل من عضلتي البايسيبس و الترايسيبس .
+هذا التمرين لتقويه الترايسيبس ."
+            android:textColor="#530203"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بالجلوس علي الكرسي ثم اجعل الوزن بكون خلف راسك وقم برفعه لاعلي مستخدما عضله الترايسيبس "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : قم بعمل 3 جولات في كل جوله 6-10 تكرارات مع وضع الوزن الذي يجعلك تقوم بعمل التمرين ولكن يجعلك تشعر بالتعب في اخر 3 تكرارات "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف : قم بعمل 3-4 جولات في كل جوله حوالي 16 تكرار مع وضع الوزن المناسب ."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="تراييسبيس كيبل"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/c2"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="مرين اخر لعضله الترايسيبس ولكن لزاويه اخري يجب عليك تنويع التمارين للحصول علي نتايج فعلية  "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="قم بالوقوف بشكل مستقيم وامسك الكييلز كما بالصوره وقم بسحبه للاسفل مستخدما عضلة الترايسيبس لديك ولا تقم بتحريك كوعك وانته تقوم بالتمرين .
+"
+            android:textColor="#530203"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="لتضخيم : قم بعمل 3 جولات في كل جوله 6-10 تكرارات مع وضع الوزن الذي يجعلك تقوم بعمل التمرين ولكن يجعلك تشعر بالتعب في اخر 3 تكرارات "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف : قم بعمل 3-4 جولات في كل جوله حوالي 16 تكرار مع وضع الوزن المناسب "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="تمرين   Dips"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/c3"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="مرين ممتاز لعضله الترايسيبس حاول ان تضيفه الي جدول تمارينك "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="يمكنك اداء هذا التمرين بشكل حر او يمكنك ان تستخدم الجهاز الذي يساعدك علي اداءه بكل الحالتين . لذا يعتبر من التمارين الخاصه بالتريسيبس . قم بتقريب اكواعك قليلا من بعضهم البعض وانت تقوم باداء التمرين .
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : قم بعمل 3 جولات في كل جوله 6-10 تكرارات مع وضع الوزن الذي يجعلك تقوم بعمل التمرين ولكن يجعلك تشعر بالتعب في اخر 3 تكرارات "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف : قم بعمل 3-4 جولات في كل جوله حوالي 16 تكرار مع وضع الوزن المناسب ."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="تمرين ترايسبيس"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/c4"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="مرين اخر لعضله الترايسيبس ميزه هذا التمرين هو انك يمكنك ان تقوم به في اي مكان وليس فقط في النادي "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بالجلوس علي كرسي وقم بامساك الوزن وضعه علي الارض بحيث يكون كوعك عند منتصف فخذك ثم قم برفع الوزن"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : قم بعمل 3 جولات في كل جوله 6-10 تكرارات مع حمل فوق ظهرك الذي يجعلك تقوم بعمل التمرين ولكن يجعلك تشعر بالتعب في اخر 3 تكرارات ."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف : قم بعمل 3-4 جولات في كل جوله حوالي 16 تكرار مع وضع الوزن المناسب فوق ظهرك"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="ترايسيبس بار متعرج"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/c5"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين اخري لعضلة الترايسيبس ولكن لزاويه اخري يجب عليك تنويع تمارين للحصول علي نتايج فعلية."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="قم بامساك البار المتعرج كما بالصوره ثم قم برفعه و خفضه مستخدما عضلة الترايسيبس .
+"
+            android:textColor="#530203"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : قم بعمل 3 جولات في كل جوله 6-10 تكرارات مع وضع الوزن الذي يجعلك تقوم بعمل التمرين ولكن يجعلك تشعر بالتعب في اخر 3 تكرارات "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف : قم بعمل 3-4 جولات في كل جوله حوالي 16 تكرار مع وضع الوزن المناسب ."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        
+
+    </LinearLayout>
+</ScrollView>

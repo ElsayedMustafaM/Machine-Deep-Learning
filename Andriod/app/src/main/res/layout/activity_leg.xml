@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mustafa.sayed.fitness.Bodice"
+    android:background="@drawable/ss">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="right"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Squats"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/x1"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين ال squats يعتبر من اهم التمارين للعضلة الرباعية ف الرجل ومن ميزاته انه يمكنك عمله في اي مكان
+يساعد في افراز هرمون التستوستيرون
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="قم بالوقوف بشكل مستقيم مع فتح القدمين مثل عرض الكتيفين قم بالنزول للاسفل مع ابقاء ظهرك مستقيما
+انتظر ثانية ثم ارتفع مرة اخرى
+"
+            android:textColor="#530203"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : قم بعمل هذا التمرين مع وضع الوزن المناسب3-4 جولات كل جولة"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="
+للتنشيف: قم بعمل التمرين 3-5 جولات وفي كل جولة 15-20 تكرار"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="تمرين   Cavels"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/x7"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="هذا التمرين مفيد لتقوية عضلات الcalves وهي العضلة الموجودة تحت الركبة من الخلف"
+            android:textColor="#530203"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بالوقوف على درج او اي شيء مشابه
+ثم قم بالصعود والنزول مستخدما عضلات الcalves"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : قم بعمل 3 جولات في كل جولة 6-10 تكرارات مع وضع الوزن المناسب
+الذي يجعلك تشعر بالتعب في اخر 3 تكرارات"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف : قم بعمل 3-4 في كل جولة حوالي 16 تكرار مع وضع الوزن المناسب"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="تمرين الدفش"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/x3"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين يقوم بتقوية العضلة الرباعية ويعتبر من التمارين الاساسية في تمارين الرجل "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="قم بالجلوس على الكرسي المخصص بالدفش ويمكنك ان تجعل اقدامك بشكل مستقيم او
+تجعلها بشكل الرقم 7 قم بعمل التمرين ببطء"
+            android:textColor="#530203"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text=""
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم :
+قم بعمل 3 جولات في كل جولة
+6-10 تكرارات
+مع وضع الوزن المناسب الذي يجعلكتشعر بالتعب في اخر 3 تكرارات"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+           android:text="للتنشيف :قم بعمل 3-4 جولات في كل جولة حوالي 16 تكرار مع وضع الوزن المناسب"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="تمرين الجري"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/x4"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="الركض يقوي القلب ويطيل عمر  الانسان
+تقوية القلب طول العمر تحسن النشاطات الفكرية التغلب على الكئابة النوم
+المريح تنظيم ضغط الدم تقليل نسبة الكوليسترول تقليل الوزن تنظيم عمل الجهاز الهضمي
+زيادة انسجة العظام تنشيط الدورة الدموية "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="يمكنك استخدام جهاز الجري او يمكنك الجري ف الاماكن المخصصة
+واستخدام برنامجنا لحساب السعرات المحترقة"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="ليس هناك زمن محدد يعتمد على لياقتك"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="تمرين العضلة الخلفية "
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/x5"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="هذا التمرين مهم لعضلة الفخد الخلفية ف الرجل"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بالجلوس على الجهاز كما بالصورة ثم قم برفع وخفض الوزن باسستخدام الفخد ولكن لا تقم بعمل التمرين بسرعة
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم قم بعمل هذا التمرين مع وضع الوزن المناسب3-4 جولات كل جولة
+8-10 تكرارات "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف قم بعمل التمرين 3-5 جولات وفي كل جولة 15-20 تكرار"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text=" تمرين العضلة الامامية "
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/x6"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين ممتاز للعضلة الرباعية في الرجل ويجب عليك ان تقوم به
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بالجلوس على الجهاز كما بالصورة ثم قم برفع وخفض الوزن باسستخدام ارجلك"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم قم بعمل هذا التمرين مع وضع الوزن المناسب3-4 جولات كل جولة
+8-10 تكرارات "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف قم بعمل التمرين 3-5 جولات وفي كل جولة 15-20 تكرار"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="تمرين ال2 calves
+"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/x2"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين لعضلة ال calve او عضلة البطات يجب عليك الا تتناسى هذه العضلة"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="
+قم بامساك الاوزان بيديك ثم قم بالوقوف على اي شيء له حافة وقم بعمل كما بالصورة"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="
+للتضخيم قم بعمل هذا التمرين مع وضع الوزن المناسب3-4 جولات كل جولة
+8-10 تكرارات "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف قم بعمل التمرين 3-5 جولات وفي كل جولة 16 تكرار"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="تمرين lunges"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/x8"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين يقوي العضلة الرباعية في الرجل
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بامساك الوزن المناسب فوق راسك ثم قم باخذ خطوة وثني رجلك 90
+درجة ثم قم بالعودة الى الوضع الطبيعي تكرر ذلك على الرجل الخرى
+"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+          android:text="للتضخيم قم بعمل هذا التمرين مع وضع الوزن المناسب3-4 جولات كل جولة
+8-10 تكرارات"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف قم بعمل التمرين 3-5 جولات وفي كل جولة 10-15 تكرار"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

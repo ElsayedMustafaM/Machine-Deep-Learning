@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Fitness</string>
+    <string name="title"></string>
+    <string name="exer">التمارين </string>
+    <string name="divice">نصائح </string>
+    <string name="calories">التغذية</string>
+    <string name="result">جدول النتائج</string>
+    <string name="modify">تعديل </string>
+    <string name="delete">مسح</string>
+    <string name="addtofavorite">اضافة للمفضلات </string>
+    <string name="id">رقم الصف </string>
+    <string name="type">النوع </string>
+    <string name="nocolor">عدد السعرات</string>
+    <string-array name="ecerlist">
+        <item>تمارين الاكتاف</item>
+        <item>تمارين ظهر</item>
+        <item>تمارين البطن </item>
+        <item>تمارين الصدر</item>
+        <item>تمارين الباي</item>
+        <item>تمارين التراي</item>
+        <item>تمارين الارجل</item>
+        <item>تمارين في المنزل</item>
+
+
+    </string-array>
+    <string-array name="food">
+        <item>معدل الحرق</item>
+        <item>الالبان</item>
+        <item>مشتفات الالبان</item>
+        <item>الجبن</item>
+        <item>النشويات</item>
+        <item>الوجبات السريعة</item>
+        <item>وجبات متنوعة</item>
+        <item>لحوم الدواجن</item>
+        <item>مشكل لحوم</item>
+        <item>الاسماك والقشريات</item>
+        <item>الاسماك الخليجية</item>
+        <item>البيض</item>
+        <item>الخضروات</item>
+        <item>الفواكه الطازجة</item>
+        <item>المشروبات الغازية</item>
+        <item>سندوتشات </item>
+        <item>عصائر ومشروبات</item>
+        <item>فواكه مجففة ومعلبة</item>
+        <item>فطائر وحلويات</item>
+        <item>حبوب ومكسرات</item>
+        <item>زيوت ودهون</item>
+        <item>حبوب</item>
+        <item>توابل</item>
+        <item>وجبات هارديز</item>
+        <item>بينزا هات</item>
+        <item>كننتاكي</item>
+        <item>مالك دونالز</item>
+        <item>برجر كينج</item>
+    </string-array>
+    <string name="title_activity_home">home</string>
+</resources>

@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mustafa.sayed.fitness.Bodice"
+    android:background="@drawable/ss">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="right"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Crunches"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/z1"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="يعتبر من التمارين الاساسيه في تمارين البطن وهو يقوم بتقويه عضلات البطن .بشكل عام وبخاصه العلويه منها "
+            android:textColor="#530203"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="يعتبر من التمارين الاساسيه في تمارين البطن وهو يقوم بتقويه عضلات البطن .بشكل عام وبخاصه العلويه منها "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="لحرق الدهون : قم بعمل تمرين علي 3-5 جولات .. في كل جوله 20-30 تكرار واذا كان التمرين سهل يمكنك مسك وزن بيديك و عمله "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : قم بمسك الوزن الذي يمكنك من عمل 10-15 تكرار مع الشعور بالتعب في اخر 3 تكرارات وقم بعمل 3-4 جولات "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="تمرين الدراجة "
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/z2"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين ممتاز جدا لحرق الدهون وتقويه عضلات البطن السفلي "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="استلقي علي الارض وقم برفع رجليك كما بالصوره اعلي ."
+            android:textColor="#530203"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بعمل هذا التمرين حتي تشعر بالتعب في  عضلات بطنك"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Leg Raises"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/z3"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين ممتاز جدا لحرق الدهون وتقويه عضلات البطن السفلي "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="استلقي علي الارض وقم برفع رجليك كما بالصوره اعلي ."
+            android:textColor="#530203"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بعمل هذا التمرين حتي تشعر بالتعب في  عضلات بطنك"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Bottom Ups"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/z4"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="هذا التمرين مشابه للتمرين السابق و هو ايضا مخصص لعضلات البطن السفلي ."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بالاستلقاء علي الارض  قو برفع رجليك لاعلي .. ثم انزلها ومدها للامام .. ثم اسحبها و ارفعها لاعلي .. وهكذا ... "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بعمل هذا التمرين حتي تشعر بالتعب في عضلات بطنك "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Plank"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/z5"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين رائع لعلات البطن كلها .. وللاسف هذا التمرين لا يقوم الكثير من الناس بفعله رغم من انه فعال جدا "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="قم بالاستلقاء علي الارض كما بالصوره في الاعلي واثبت بدون ان تتحرك "
+            android:textColor="#530203"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بعمل هذا التمرين 3-4 جولات في كل جوله حتي تشعر بالتعب .. ولكن اذا استطعت ان تعفعله لمده اكثر من 2 دقيقه .. فحاول انا تضع اوزان فوقك "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text=" تمرين  Roll"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/z6"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+           android:text="تمرين مفيد لعضلات البطن كلها بشكل عام ."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="ستلقي علي الارض وامسك بار كما بالصوره .. ثم قم بعمل كما بالصوره ولكن ببطئ وليس بسرعه"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بعمل هذا التمرين حتي تعشر بالتعب في عضلات بطنك قم بعمل 3 جولات"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="بطن بالجهاز"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/z7"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين مخصص لعضلات البطن ولكن باستخدام الجهاز ميزته انه يمكنك التحكم بالوزن "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="زقم بالجلوس علي الجهاز ... وقم بامساك القبضتين .. وقم بانزال الوزن مستخدما عضلات بطن فقط بدون استخدام اليد "
+            android:textColor="#530203"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : قم بعمل 3 جولات في كل جوله 6-10 تكرارات مع وضع الوزن الذي يجعلك تقوم بعمل التمرين ولكن يجعلك تشعر بالتعب في اخر 3 تكرارات"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف : قم بعمل 3-4 جولات في كل جوله حوالي 16 تكرار مع وضع الوزن المناسب ."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Leg Raises 2"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/z8"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بامساك شئ مرتفع كما بالصوره .. وقم برفع وخفض لرجلك ... ولكن لاتتعجل اثناء قيامك بالتمرين  ."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بالاستلقاء علي الارض  كما في  الصوره  في الاعلي ... واثبت بدون ان تتحرك "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بعمل هذا التمرين 3-4 جولات كل جوله حتي تشعر بالتعب."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Incline Crunches"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/z9"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين يشبه تمرين الcrunches ولكنه مخصص لعضلات البطن العلويه "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بالاستلقاء علي شئ مشابه للصوره التي في الاعلي (يكون مائل للاعلي ) .... ثم قوم  بعمل تمرين البطن بشكل طبيعي ."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بعمل هذا التمرين حتي تشعر بالتعب في عضلات البطن وقم بعمل 3 جولات ."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="بطن جانبي دامبل "
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/z10"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="تمرين مخصص لعضلات البطن الجانبيه"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بالوقوف وامسااك الوزن المناسب لك ثم قم بعمل كما بالصوره و حاول ان تشعر بعضلات بطنك وانته تقوم بالتمرين"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="قم بعمل 3 جولات ...... كل جوله الي ان تشعر بالتعب"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="بطن كيبل"
+            android:textColor="#020123"
+            android:gravity="center_horizontal"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/z11"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="فوائد التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="من التمارين الرائعه لعضلت البطن و تقم بنحت عضلات البطن بشكل عام."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="كيفية التمرين :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text=" قم بالذهاب الي الجهاز الخاص بالكيبلات وقم بالجلوس علي الارض وامسك الكيبل من الاعلي وقم بعمل كما بالصوره "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="عدد التكرار :"
+            android:textColor="#020123"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتضخيم : قم بعمل جولات في كل جوله 6-10 تكرارات مع وضع الوزن الذي يجعلك تقوم بعمل التمارين لكن يجعلك تشعر بالتعب في اخر 3 تكرارات "
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#530203"
+            android:text="للتنشيف : قم بعمل 3-4 جولات في كل جوله حوالي 16 تكرار مع وضع الوزن المناسب"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/backgroundfront"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

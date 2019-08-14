@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mustafa.sayed.fitness.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/ss"
+    android:gravity="center"
+
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+
+        android:background="@drawable/title"
+        android:gravity="center"
+        android:text="FITNESS"
+        android:textColor="#020a41"
+        android:textSize="50dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="570dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/bodybuilding"
+            android:layout_marginRight="0dp"/>
+
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="570dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:textSize="30dp"
+                android:background="@drawable/line_des"
+                android:onClick="exercies"
+                android:text="@string/exer"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/line_des"
+                android:onClick="food"
+                android:text="@string/calories"
+                android:textSize="30dp"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/line_des"
+                android:onClick="Device"
+                android:text="@string/divice"
+                android:textSize="30dp"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/line_des"
+                android:onClick="resulttable"
+                android:text="@string/result"
+                android:textSize="30dp"
+                android:textAppearance="?android:textAppearanceLarge" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:onClick="shareApp"
+            android:src="@drawable/share" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:onClick="sendEmail"
+            android:src="@drawable/mail5" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:onClick="outApp"
+            android:src="@drawable/out" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

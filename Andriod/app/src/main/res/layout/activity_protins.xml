@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mustafa.sayed.fitness.Protins"
+
+    android:background="@drawable/ss"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="البروتينات"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textColor="#000000"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/pro1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#05075c"
+            android:textSize="20dp"
+            android:text="حسب تقرير نشرته صحيفة هافينغتون بوست، فإن كمية البروتين التي يحتاج إليها الجسم تعتمد على وزن الشخص والأنشطة البدنية التي يمارسها بصفة يومية، إلا أن هناك توصية بالاستهلاك المثالي للبروتينات للسيدات فوق 19 عاماً وهي 46 غراماً. فهذه الكمية ستبعث بالطاقة الكافية للجسم، وتعيد بناء العضلات بعد التمرينات، وتقوي جهاز المناعة كذلك.
+وبخلاف الدهون والنشويات، فإن الجسم لا يقوم بتخزين البروتينات، لذا فمن المهم استهلاك كمية البروتينات الموصى بها يومياً للحفاظ على جسم حيوي مليء بالطاقة."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" اهم البروتينات : "
+            android:textSize="30dp"
+            android:gravity="right"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:text="القمح المقشور، ويحتوي الكوب المطبوخ منه على 10.67 غرام.
+\nالكينوا، ويحتوي كوب من الكينوا المطبوخة على 8.14 غرام.
+\nلفريك، ويحتوي ربع الكوب غير المطبوخ على 7 غرامات.
+ \nالحنطة السوداء، وهي المكون الأساسي لبعض أنواع الـنودلز الياباني - ويحتوي الكوب المطبوخ على 5.77 غرام.
+ \nالشعير - المقشر منه يحتوي على 5.74 غرام في ربع الكوب، أما الحبة المدورة فيحتوي الكوب المطبوخ على 3.55 غرام.
+ \nالبرغل - ويحتوي الكوب المطبوخ على 5.61 غرام.
+ \nالجبن المنزلي، ويحتوي 4 أوقيات من الجبن المنزلي الذي يحتوي على 2% من الحليب على 11.81 غرام من البروتين.
+  \nاللبنة اليوناني قليلة الدسم، ويحتوي 3.5 أوقية منها على 9.95 غرام
+  \nالبيض، وتحتوي البيضة كبيرة الحجم المسلوقة جيداً على 6.29 غرام
+"
+            android:textSize="20dp"
+            android:textColor="#05075c"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/pro2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:text=" \nلب القرع، ويحتوي ربع كوب منه (محمص بدون ملح) على 8.8 غرام.
+ \nلب عباد الشمس، ويحتوي ربع كوب منه (محمص بدون ملح) على 6.19 غراماً.
+ \nبذور الشيا، ويحتوي الرطل الواحد على 4.69 غرام.
+ \nبذور القنب، وتحتوي الملعقة من البذور المقشورة على 3.16 غرام.
+ \nللوبيا (الفاصوليا ذات العين السوداء)، ويحتوي الكوب المطبوخ على 5.23 غرام
+ \nالبازلاء الخضراء، ويحتوي نصف الكوب المطبوخ على 4.29 غرام.
+ \nالجوافة، وهي من أغنى الفواكه بالبروتين، حيث يحتوي الكوب على 4.21 غرام.
+ السبانخ، ويحتوي ثلاثة أرباع الكوب المطبوخ على 4 غرامات\n
+ \nالملفوف، ويحتوي الكوب المطبوخ على 3.98 غرام.
+ \nالفطر، ويحتوي الكوب المشوي والمقطع شرائح على 3.97 غرام.
+ \nالخرشوف، وتحتوي ثمرة الخرشوف المتوسطة على 3.47 غرام.
+ \nالكرنب الأخضر (الكالي)، ويحتوي الكوب المطبوخ على 2.47 غرام.
+ \nالطماطم المجففة، ويحتوي ربع كوب على 1.9 غرام.
+"
+            android:textSize="20dp"
+            android:textColor="#05075c"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/pro3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nالفول السوداني، ويحتوي ربع كوب منه (الخام) على 9.42 غرام.
+\nزبدة الفول السوداني، وتحتوي ملعقتان منها – بدون ملح – على 7.11 غرام.
+\nاللوز، ويحتوي ربع كوب محمص وبدون ملح على 7.23 غرام.
+\nزبدة اللوز، وتحتوي ملعقتان منها – بدون ملح – على 6.71 غرام.
+\nالفستق، وتحتوي الأوقية (الخام) على 5.72 غرام.
+\nالكاجو، وتحتوي الأوقية (الخام) على 5.17 غرام.
+\nزبدة الكاجو، وتحتوي الملعقتان – بدون ملح – على 5.62 غرام.
+\nالفاصوليا البيضاء، ويحتوي كوب منها مغلي بدون ملح على 17.42 غرام.
+
+"
+            android:textSize="20dp"
+            android:textColor="#05075c"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/pro4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:text="\nالفاصوليا السوداء، ويحتوي كوب منها مغلي بدون ملح على 15.24 غرام.
+\nالعدس، ويحتوي ثلاثة أرباع كوب مطبوخ على 13.39 غرام.
+\nالحمص، ويحتوي كوب منه بعد النقع والتصفية على 10.7 غرام.
+\nفول الصويا، ويحتوي نصف كوب مثلج على 9.23 غرام.
+\nالفول مدمس، وهو أكلة شعبية منتشرة في عدة بلدان عربية، ويحتوي كل 100 غرام من الفول على 26 غرام من البروتينات.
+"
+            android:textSize="20dp"
+            android:textColor="#05075c"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/pro5"/>
+    </LinearLayout>
+
+</ScrollView>

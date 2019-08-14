@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear"
+android:orientation="vertical"
+    android:background="@drawable/ss"
+    >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="680dp"
+                android:id="@+id/imageview"
+                />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+
+            android:text="النوع : "
+            android:textColor="#000000"
+            android:textSize="26dp"
+            android:layout_above="@+id/txt2"
+            android:layout_alignLeft="@+id/txt2"
+            android:layout_alignStart="@+id/txt2" />
+
+        <EditText
+            android:id="@+id/type"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/button2"
+            android:layout_toLeftOf="@+id/txt1"
+            android:layout_toStartOf="@+id/txt1" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:text="عدد السعرات  : "
+            android:textColor="#000000"
+            android:textSize="26dp"
+            android:layout_alignBottom="@+id/nocolories"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:id="@+id/nocolories"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+
+            android:layout_below="@+id/type"
+            android:layout_toRightOf="@+id/button2"
+            android:layout_toEndOf="@+id/button2"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp"
+            android:background="@drawable/line_des"
+            android:onClick="AddToFavorite"
+            android:text="اضافة للمفضلات"
+            android:textSize="40dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
