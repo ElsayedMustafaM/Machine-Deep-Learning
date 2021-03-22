@@ -1,1 +1,1 @@
-# Machine-Deep-Learning
+# Machine & Deep Learning
